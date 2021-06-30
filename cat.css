@@ -1,26 +1,26 @@
-.container {
+header {
+    padding: 30px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.sidebar {
-    width: 30%;
-    margin: 10px 0 10px 0;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
 }
 
-.content {
-    width: 70%;
-    margin: 10px 0 10px 0;
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
 }
-
-#menu{
-    padding: 0 0 0 50px;
-}
-
-#subject{
-    padding: 0 0 0 70px;
-}
-
-.content_animal{
-    padding: 0 0 0 70px;
+ 
+li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
 }
