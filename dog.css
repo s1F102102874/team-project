@@ -25,9 +25,13 @@ ul{
     margin: 0;
 }
 
-li{
+li.head{
     margin: 0 0 0 15px;
     font-size: 14px;
+}
+
+li.menu{
+    margin-right: 15px;
 }
 
 nav{
@@ -52,4 +56,46 @@ img{
 img.dog_zya{
     width: 352px;
     height: 476px;
+}
+
+hr#under{
+    margin: 50px 0 50px 0;
+}
+
+#top{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#siba{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#akita{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#zya{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#sibe{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+#gold{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+.butt{
+    background-color: cornflowerblue;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
