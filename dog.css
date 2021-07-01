@@ -55,6 +55,7 @@ header{
     background-color: #fff;
     display: flex;
     align-items: flex-start;
+    z-index: 100;
 }
 
 img{
