@@ -137,9 +137,8 @@ hr#under{
 
 .butt{
     text-decoration: none;
-    background-color: cornflowerblue;
+    background-color: #F6A38B;
     color: #fff;
-    text-shadow: 1px 1px #000000;
     margin-bottom: 30px;
     margin-left: 20px;
 }
