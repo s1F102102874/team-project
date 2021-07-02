@@ -52,28 +52,8 @@ a.menu_a:after {
     content: "";
 }
 
-a.menu_ac{
+a{
     color: royalblue;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    text-decoration: none;
-}
-
-a.menu_ac:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: blue;
-    transform: translate(-100%, 0);
-    transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
-    content: "";
-}
-
-a:hover:after{
-    transform: translate(0,0);
 }
 
 ul{
@@ -89,6 +69,7 @@ li.head{
 
 li.menu{
     margin-right: 15px;
+    text-decoration: underline;
 }
 
 nav{
@@ -152,12 +133,13 @@ hr#under{
 
 .butt{
     text-decoration: none;
-    background-color: #F6A38B;
+    background-color: cornflowerblue;
     color: #fff;
+    text-shadow: 1px 1px #000000;
     margin-bottom: 30px;
     margin-left: 20px;
 }
 
-ol{
-    
+td{
+    text-align: center;
 }
