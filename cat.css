@@ -25,3 +25,15 @@ li {
     margin: 0 0 0 15px;
     font-size: 14px;
 }
+
+nav {
+    margin: 0 0 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
