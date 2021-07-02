@@ -10,12 +10,18 @@ body {
     margin: 100px 0 0 0;
     padding: 0;
     background-color: #e6e6e6;
+    text-align: center;
 }
 
 h1{
     font-size: 20px;
     margin: 0;
     padding: 0;
+}
+
+h3#top{
+    text-align:start;
+    padding-left: 40px;
 }
 
 a.menu_a {	
