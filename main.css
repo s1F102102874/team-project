@@ -22,7 +22,7 @@ html{
     z-index: 100;
  }
 
- h1 {
+ #title {
     margin: 0; padding: 0;
     font-size: 20px;
  }
@@ -48,18 +48,22 @@ html{
     justify-content: center;
     align-items: center;
     height: 75vh;
-    background: url('img/のらねこ改改改.jpg') top center / cover no-repeat;
+    background: url('img/いぬねこ改.jpg') top center / cover no-repeat;
  }
- h2 .neko {
-    margin: 0;
-    font-size: 30px;
+
+.neko {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 50px;
     font-weight: normal;
-    color: rgb(0, 255, 170);
+    color: rgb(255, 255, 255);
+    font-family: arial black;
  }
 
  h2 {
    position: relative;
    text-align: center;
+   font-size: 25px;
  }
  
  h2:before {
@@ -118,6 +122,7 @@ li.list8-count:after{
 	font-weight: bold;
 	border-radius: 30px;
    margin-left: 250px;
+   margin-top: 3px;
 }
  
 li.list8-count:before{
@@ -134,10 +139,12 @@ li.list8-count:before{
 	border-bottom: 8px solid transparent;
 	border-left: 13px solid #aaa;
    margin-left: 250px;
+   margin-top: 3px;
 }
 
 strong {
    margin-left: 250px;
+   font-size: 20px;
 }
 
  ol {
