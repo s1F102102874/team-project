@@ -184,3 +184,7 @@ p#buttom{
    left: 1200px;
    top: 950px;
 }
+
+.emphasis {
+   text-decoration: underline wavy 	#000080;
+}
