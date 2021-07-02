@@ -19,6 +19,14 @@ h1{
     padding: 0;
 }
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
 h3#top{
     text-align:start;
     padding-left: 40px;
