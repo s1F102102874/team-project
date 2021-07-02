@@ -162,12 +162,25 @@ p#buttom{
 
 .butt{
     text-decoration: none;
-    background-color: cornflowerblue;
+    background-color: #F6A38B;
     color: #fff;
-    text-shadow: 1px 1px #000000;
     margin-bottom: 30px;
     margin-left: 20px;
 }
 .list {
    margin-left: 250px;
+}
+
+#image1 {
+   position: absolute;
+   width: 400px;
+   left: 1050px;
+   top: 1700px;
+}
+
+#image2 {
+   position: absolute;
+   width: 200px;
+   left: 1200px;
+   top: 950px;
 }
