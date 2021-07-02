@@ -51,3 +51,41 @@
     font-weight: normal;
     color: rgb(0, 255, 170);
  }
+
+ h2 {
+   position: relative;
+   text-align: center;
+ }
+ 
+ h2:before {
+   position: absolute;
+   bottom: -10px;
+   left: calc(50% - 30px);
+   width: 60px;
+   height: 5px;
+   content: '';
+   border-radius: 3px;
+   background: #000;
+ }
+
+ #description1 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+ }
+
+ #description2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+ }
+
+ #description3 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+ }
+
+ ol {
+    padding-left: 250px;
+ }
