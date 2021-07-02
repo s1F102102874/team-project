@@ -43,6 +43,10 @@ a {
     color: #4b4b4b;
 }
 
+#ranking{
+    color:blue;
+}
+
 .butt{
     text-decoration: none;
     background-color: cornflowerblue;
@@ -52,7 +56,15 @@ a {
     margin-left: 20px;
 }
 
-#top{
-    margin-top: -100px;
-    padding-top: 130px;
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 320px;
+    height: 200px;
 }
