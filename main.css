@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
  }
+
+html{
+    scroll-behavior: smooth;
+}
+
  body {
     margin: 0;
     padding: 0;
@@ -89,3 +94,21 @@
  ol {
     padding-left: 250px;
  }
+
+#top{
+    margin-top: -75px;
+    padding-top: 90px;
+}
+
+p#buttom{
+    text-align: center;
+}
+
+.butt{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
