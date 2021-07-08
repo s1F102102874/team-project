@@ -10,6 +10,7 @@ html{
     margin: 0;
     padding: 0;
     background-color: #e6e6e6;
+    font-family: serif;
  }
  header {
     padding: 30px 4% 10px;
@@ -37,6 +38,8 @@ a{
     display: inline-block;
     overflow: hidden;
     position: relative;
+    font-size: px;
+    font-family: sans-serif;
  }
 
  a.menu_a:after {
@@ -185,13 +188,33 @@ p#buttom{
     text-align: center;
 }
 
-.butt{
-    text-decoration: none;
-    background-color: #F6A38B;
-    color: #fff;
-    margin-bottom: 30px;
-    margin-left: 20px;
-}
+.butt {
+   position: relative;
+   display: inline-block;
+   font-weight: bold;
+   padding: 0.25em 0;
+   text-decoration: none;
+   color: #000080;  
+ }
+ 
+ .butt:before {
+   position: absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:100%;
+   left: 0;
+   border-radius: 3px;
+   background:#000080;
+   transition: .2s;
+ }
+ 
+ .butt:hover:before {
+   top: -webkit-calc(100% - 3px);
+   top: calc(100% - 3px);
+ }
+ 
+
 .list {
    margin-left: 250px;
 }
@@ -211,5 +234,5 @@ p#buttom{
 }
 
 .emphasis {
-   text-decoration: underline wavy 	#000080;
+   text-decoration: underline 	#000080;
 }
