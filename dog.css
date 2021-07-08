@@ -11,6 +11,7 @@ body {
     padding: 0;
     background-color: #e6e6e6;
     text-align: center;
+    font-family: serif;
 }
 
 h1{
@@ -41,6 +42,7 @@ a.menu_a {
     display: inline-block;
     overflow: hidden;
     position: relative;
+    font-family: sans-serif;
 }
 
 a.menu_a:after {
@@ -156,10 +158,32 @@ hr#under{
     padding-top: 70px;
 }
 
-.butt{
+.butt {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0;
     text-decoration: none;
-    background-color: #F6A38B;
-    color: #fff;
-    margin-bottom: 30px;
-    margin-left: 20px;
-}
+    color: #000080;  
+  }
+  
+  .butt:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    top:100%;
+    left: 0;
+    border-radius: 3px;
+    background:#000080;
+    transition: .2s;
+  }
+  
+  .butt:hover:before {
+    top: -webkit-calc(100% - 3px);
+    top: calc(100% - 3px);
+  }
+
+  p {
+      font-size: 18px;
+  }
