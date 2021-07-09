@@ -53,7 +53,7 @@ a {
     color: #4b4b4b;
 }
 
-#ranking{
+.ranking{
     color:blue;
 }
 
@@ -108,7 +108,7 @@ table{
     margin-right: auto;
 }
 
-#s{
+.s{
     color:orange;
 }
 
@@ -134,3 +134,4 @@ a.menu_a:after {
 
 a:hover:after{
     transform: translate(0,0);
+}
