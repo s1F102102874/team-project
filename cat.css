@@ -118,6 +118,7 @@ a.menu_a {
     display: inline-block;
     overflow: hidden;
     position: relative;
+    font-family: sans-serif;
 }
 
 a.menu_a:after {
